@@ -1,15 +1,21 @@
 import React from 'react';
 import Navbar from "./Navbar";
+import Hero from './Hero';
+import Destination from './Destination';
 const Home = () => {
   return (
     <div>
-       <Navbar/>
-      <h2>Welcome to Home Services</h2>
-      <p>
-        We are your one-stop solution for all home services. Whether you need plumbing, electrical
-        work, painting, or any other home-related service, we've got you covered.
-      </p>
-      <p>Contact us now to get the best quotes for your home improvement needs!</p>
+      <Navbar />
+      <Hero
+        cName=" hero"
+        heroImg="https://images.unsplash.com/photo-1508864284229-28a2d426f10c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        title="Your Journey your story"
+        text="Choose your fevourite destination"
+        buttonText="Travel Plan"
+        url="/"
+        btnClass="show"
+      />
+      <Destination/>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-import NightImage from '../assets/2.jpg'
+import NightImage from '../assets/night.jpg'
 import Hero from "./Hero";
-const Contact =()=>{
+const Services =()=>{
 return(<>
 
 <Navbar />
@@ -15,4 +15,4 @@ return(<>
 </>);
 }
 
-export default Contact;
+export default Services;
