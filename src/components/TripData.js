@@ -1,5 +1,5 @@
 import React from 'react'
-// import "./TripStyle.css";
+import "./TripStyle.css";
 
 const TripData = (Props) => {
     return (
